@@ -16,7 +16,7 @@ if ($age >= 18) {
 }
 ?>
 
-//if...elseif...else Statement
+//if...else if...else Statement
 <?php
 $grade = 72;
 if ($grade >= 90) {
