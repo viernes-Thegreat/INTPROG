@@ -1,0 +1,49 @@
+//if Statement
+<?php
+$score = 85;
+if ($score >= 80) {
+    echo "You passed with distinction!";
+}
+?>
+
+//if...else Statement
+<?php
+$age = 17;
+if ($age >= 18) {
+    echo "You are eligible to vote.";
+} else {
+    echo "You are not eligible to vote.";
+}
+?>
+
+//if...elseif...else Statement
+<?php
+$grade = 72;
+if ($grade >= 90) {
+    echo "Grade: A";
+} elseif ($grade >= 80) {
+    echo "Grade: B";
+} elseif ($grade >= 70) {
+    echo "Grade: C";
+} else {
+    echo "Grade: F";
+}
+?>
+
+//switch Statement
+<?php
+$day = "Wednesday";
+switch ($day) {
+    case "Monday":
+        echo "Start of the week!";
+        break;
+    case "Wednesday":
+        echo "Midweek grind!";
+        break;
+    case "Friday":
+        echo "Weekend is near!";
+        break;
+    default:
+        echo "Just another day.";
+}
+?>
